@@ -3,9 +3,8 @@ function saludar() {
 }
 
 function sumar(a, b) {
-    return a + b; // Corregido
+    return a + b; // ¡CORRECTO!
 }
-
 // Exportar para las pruebas (Node.js)
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { sumar };

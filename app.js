@@ -1,10 +1,9 @@
 function saludar() {
-    document.getElementById('resultado').textContent = '¡Hola desde CI/CD! 🎉';
+    document.getElementById('resultado').textContent = '¡Hola desde CI/CD! 🎉 Actualizado!';
 }
 
-// Función para sumar (la probaremos con Jest)
 function sumar(a, b) {
-    return a + b;
+    return a - b; // ¡Error intencional!
 }
 
 // Exportar para las pruebas (Node.js)

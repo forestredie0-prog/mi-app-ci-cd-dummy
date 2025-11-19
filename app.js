@@ -3,7 +3,7 @@ function saludar() {
 }
 
 function sumar(a, b) {
-    return a - b; // ¡Error intencional!
+    return a + b; // Corregido
 }
 
 // Exportar para las pruebas (Node.js)

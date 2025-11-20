@@ -1,11 +1,13 @@
 function saludar() {
-    document.getElementById('resultado').textContent = '¡Hola desde CI/CD! 🎉 Actualizado!';
+    document.getElementById('resultado').textContent = '¡Hola desde CI/CD y Docker! 🚠️';
 }
 
+// Función para sumar (la probaremos con Jest)
 function sumar(a, b) {
-    return a + b; // ¡CORRECTO!
+    return a + b;
 }
-// Exportar para las pruebas (Node.js)
+
+// Exportar la función para las pruebas
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { sumar };
 }

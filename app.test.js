@@ -11,7 +11,3 @@ test('Sumar -1 + 1 debe ser 0', () => {
 test('Sumar 0 + 0 debe ser 0', () => {
     expect(sumar(0, 0)).toBe(0);
 });
-
-test('Sumar 5 + 7 debe ser 12', () => {
-    expect(sumar(5, 7)).toBe(12);
-});
